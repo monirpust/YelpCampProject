@@ -1,0 +1,37 @@
+<%- include ('../partials/header') %>
+	
+<div class="container mt-2">
+	<header class="jumbotron">
+		<div>
+			<h1>Welcome to the CSE 9th batch Campground of 1_1!</h1>
+			<p>See our life while it was 1st year 1st semester at PUST. Just think about that how many places we have visited together! And how much fun we had made!</p>
+			<p>
+				<a class="btn btn-primary btn-large" href="campground/new">Add New Campground</a>
+			</p>
+		</div>
+	</header>
+
+	<div class="container">
+		<div class="row text-center">
+			<% for(var i = 0; i < campground.length; i++){ %>
+			<div class="col-md-3 col-sm-6">
+				<div class="img-thumbnail " >
+				  <img class="img-fluid" src="<%- campground[i].image %>">
+				</div>
+
+				<div class="img-caption">
+					 <%- campground[i].name %>
+				</div>
+
+				<div>
+					<a class="btn btn-primary" href="/campground/<%- campground[i]._id %>">More Info</a>
+				</div>
+			</div>
+
+			<% } %>
+		</div>
+				<a href="/">Back to Home</a>
+	</div>
+	<%- include ('../partials/footer') %>
+</div>
+
