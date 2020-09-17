@@ -36,4 +36,3 @@ Back-end
     passport-local
     express-session
     method-override
-    connect-flash
