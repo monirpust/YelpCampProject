@@ -21,19 +21,20 @@ Features
 
         Upload campground photos and writing about campground
 
-Built with
-Front-end
-    HTML5
-    CSS3
-    Bootstrap
+  Built with
+ 
+    Front-end
+         HTML5
+         CSS3
+         Bootstrap
 
-Back-end
-    node js
-    ejs
-    express
-    mongoDB
-    mongoose
-    passport
-    passport-local
-    express-session
-    method-override
+    Back-end
+        node js
+        ejs
+        express
+        mongoDB
+        mongoose
+        passport
+        passport-local
+        express-session
+        method-override
