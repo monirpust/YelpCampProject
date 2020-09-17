@@ -1,7 +1,7 @@
 # YelpCampProject
 YelpCamp
 
-    YelpCamp is a Node.js based web application project where user can visit defferent campgrounds and read details about campground.
+    YelpCamp is a Node.js based web application project where user can visit defferent campgrounds.
 
 Features
 
