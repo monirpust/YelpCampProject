@@ -23,12 +23,13 @@ Features
 
 Built with
 Front-end
-
-    ejs
+    HTML5
+    CSS3
     Bootstrap
 
 Back-end
-
+    node js
+    ejs
     express
     mongoDB
     mongoose
